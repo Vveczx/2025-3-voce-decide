@@ -2,12 +2,12 @@
 
 
 
-:root{
---azul-rico: #0d1b2aff;
---azul-oxford: #1b263bff;
---azul-claro: #415a77ff;
---lago-cinza: #778da9ff;
---platina: #e0e1ddff;
---fonte-primaria: "UnifrakturMaguntia", cursive;
---fonte-secundaria:  "VT323", monospace;
+:root {
+    --azul-rico: #0d1b2aff;
+    --azul-oxford: #1b263bff;
+    --azul-claro: #415a77ff;
+    --lago-cinza: #778da9ff;
+    --platina: #e0e1ddff;
+    --fonte-primaria: "UnifrakturMaguntia", cursive;
+    --fonte-secundaria: "VT323", monospace;
 }
