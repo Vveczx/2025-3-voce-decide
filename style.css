@@ -16,3 +16,23 @@ font-weight: 400;
     --fonte-primaria: "UnifrakturMaguntia", cursive;
     --fonte-secundaria: "VT323", monospace;
 }
+
+body{
+    background-color: var(--lago-cinza);
+    color: var(--platina);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--fonte-primaria);
+
+}
+.caixa-principal{
+    background-color: var(--azul-oxford);
+    width: 90%;
+    text-align:center;
+    padding: 20px;
+}
+.titulo{
+    font-family: var(--fonte-secundaria);
+}
