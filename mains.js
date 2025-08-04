@@ -2,59 +2,59 @@ const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
-const textoResultado = document.querySelector("texto-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Você tem seu primeiro contato com videogames aos 15 anos, quando ganha um PC usado do seu primo rico que te deixou entrar na Steam Family dele. Qual gênero você quer experimentar primeiro?",
         alternativas: [
             {
-                texto: "alternativa 01",
-                afirmacao: "resultado 01"
+                texto: " Aventure-se nos RPGs e visual novels (Final Fantasy, Persona, Dark Souls).",
+                afirmacao: "Você se apaixonou por histórias profundas, desenvolveu paciência para explorar narrativas e está construindo uma base sólida para entender jogos com muita lore e complexidade."
             },
             {
-                texto: "alternativa 02",
-                afirmacao: "resultado 02"
+                texto: "Vá para jogos de ação e FPS (Call of Duty, Battlefield, Postal 2).",
+                afirmacao: " Você ama a adrenalina dos jogos rápidos, treinou sua mira e reflexos, e já começa a pensar em estratégias para dominar o multiplayer."
             }
 
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Com o gosto formado e uma grande paixão pelos games, em uma certa manhã você acorda e decide se tornar desenvolvedor de jogos e começa a estudar programação, mas bateu aquela preguiça. Durante as férias de julho o que você faz no seu tempo livre?",
         alternativas: [
             {
-                texto: "alternativa 03",
-                afirmacao: "resultado 03"
+                texto: "joga em qualquer oportunidade , afinal, a vida é pra curtir! e essas coisas de estudar é pra escola, então pode ficar pra depois… vamos relaxar por agora.",
+                afirmacao: "Você relaxou jogando, o que deu um respiro para a mente, mas perdeu um pouco o ritmo de estudo e progresso, até chegou a desanimar um pouco da ideia mas deu continuidade."
             },
             {
-                texto: "alternativa 04",
-                afirmacao: "resultado 04"
+                texto: "Dedica-se a estudar programação para se tornar um melhor dev, aproveitando bem o tempo pra aprender métodos e aperfeiçoar projetos.",
+                afirmacao: "Você avançou bastante nos estudos, se sentiu mais preparado e motivado para criar seus próprios jogos, conseguiu investir um tempo bom pra compreender fundamentos importantes."
             }
 
         ]
     }, {
-        enunciado: "Pergunta 3",
+        enunciado: "Você está começando a criar seus primeiros jogos e publicá-los em sites como Steam e  Itch.io. Como reage ao receber críticas?",
         alternativas: [
             {
-                texto: "alternativa 05",
-                afirmacao: "resultado 05"
+                texto: "Ignora as críticas negativas e continua no seu jeito, suas obras são perfeitas do jeito que são e as pessoas que criticaram não sabem o que falam.",
+                afirmacao: "Você perdeu algumas oportunidades de crescer, mas manteve sua identidade criativa e eventualmente foi entendendo os seus erros conforme adquiria mais experiência na área."
             },
             {
-                texto: "alternativa 06",
-                afirmacao: "resultado 06"
+                texto: "Aceita críticas construtivas e melhora seu trabalho, afinal sempre há espaço pra aprendizado e melhoria pra futuros projetos.",
+                afirmacao: "Seu jogo ficou melhor, você ganhou respeito e está no caminho certo para o sucesso, você conseguiu entender melhor os seus pontos fortes e fracos e aperfeiçoou o que era necessário."
             }
 
         ]
     }, {
-        enunciado: "Pergunta 4",
+        enunciado: "Depois de alguns anos, você ganhou um certo reconhecimento e recebeu propostas de alguns estúdios, incluindo um que você é super fã desde a sua adolescência.",
         alternativas: [
             {
-                texto: "alternativa 07",
-                afirmacao: "resultado 07"
+                texto: "Aceita a proposta e se dedica 100% para ser um Kojima da nova geração , sempre buscando aprender e dominar cada vez mais suas habilidades.",
+                afirmacao: "Você trabalhou duro, criou jogos incríveis e virou referência no mundo gamer, influenciou gerações de games com suas criações inovadoras e interessantes , sendo realmente um Hideo Kojima da nova geração."
             },
             {
-                texto: "alternativa 08",
-                afirmacao: "resultado 08"
+                texto: "Recusar a proposta por estar acostumado com a rotina confortável que criou, preferindo continuar no vício das jogatinas, fast food e noites viradas sem produtividade, tipo, tanto faz né… tem mais liberdade fazendo trabalho autonomo.",
+                afirmacao: "Com o tempo, sua saúde foi se piorando cada vez mais, sedentarismo, obesidade, hipertensão,  diabetes…. O vício em jogos e a má alimentação te deixaram obeso mórbido . As oportunidades passaram, e você acabou esquecido, vivendo numa bolha de nostalgia e arrependimento, preso à frente da tela e morreu de infarto se arrependendo amargamente de não ter levado uma vida melhor."
             }
 
         ]
@@ -95,7 +95,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostreResultado(){
-    caixaPerguntas.textContent= "skibidi"
+    caixaPerguntas.textContent= "E assim..."
     textoResultado.textContent=  historiaFinal;
     caixaAlternativas.textContent= "";
 }

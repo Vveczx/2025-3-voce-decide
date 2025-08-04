@@ -8,6 +8,8 @@ font-weight: 400;
 
 
 :root {
+    --preto: #000000;
+    --laranja: #FFDBBB;
     --azul-rico: #0d1b2aff;
     --azul-oxford: #1b263bff;
     --azul-claro: #415a77ff;
@@ -24,7 +26,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font-family: var(--fonte-primaria);
+    font-family: var(--fonte-secundaria);
 
 }
 .caixa-principal{
@@ -34,5 +36,20 @@ body{
     padding: 20px;
 }
 .titulo{
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
+}
+
+button{
+    background-color: var(--lago-cinza);
+    color: var(--preto);
+    border: solid 2px var(--azul-rico);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px auto;
+    transition: 0.3s;
+
+}
+
+button:hover{
+    background-color: var();
 }
