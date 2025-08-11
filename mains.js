@@ -23,7 +23,7 @@ const perguntas = [
         enunciado: "Com o gosto formado e uma grande paixão pelos games, em uma certa manhã você acorda e decide se tornar desenvolvedor de jogos e começa a estudar programação, mas bateu aquela preguiça. Durante as férias de julho o que você faz no seu tempo livre?",
         alternativas: [
             {
-                texto: "joga em qualquer oportunidade , afinal, a vida é pra curtir! e essas coisas de estudar é pra escola, então pode ficar pra depois… vamos relaxar por agora.",
+                texto: "Joga em qualquer oportunidade , afinal, a vida é pra curtir! E essas coisas de estudar é pra escola, então pode ficar pra depois… vamos relaxar por agora.",
                 afirmacao: "Você relaxou jogando, o que deu um respiro para a mente, mas perdeu um pouco o ritmo de estudo e progresso, até chegou a desanimar um pouco da ideia mas deu continuidade."
             },
             {
